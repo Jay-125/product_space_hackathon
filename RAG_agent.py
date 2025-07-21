@@ -78,13 +78,13 @@ def agent(state: AgentState) -> str:
 search_tool = TavilySearch(
     max_results=5,
     topic="general",
-    tavily_api_key="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",
+    tavily_api_key="<api_key>",
 )
 
 news_tool = TavilySearch(
     max_results=5,
     topic="news",
-    tavily_api_key="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",
+    tavily_api_key="<api_key>",
 )
 
 def search_agent(state: AgentState) -> AgentState:
